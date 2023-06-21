@@ -1,0 +1,35 @@
+/* Estilo del logo */
+.logo img {
+    width: 200px; /* Define el ancho deseado */
+    height: 200px; /* Permite que la altura se ajuste proporcionalmente */
+}
+
+/* Estilo de los enlaces de la barra de navegación */
+.navbar ul li a {
+    color: black;
+    font-size: 19px;
+}
+
+/* Estilo de las imágenes */
+img {
+    display: block; /* Muestra las imágenes en bloque */
+}
+
+/* Estilo del contenedor personalizado */
+.custom-wrapper {
+    display: flex; /* Utiliza flexbox para distribuir los elementos horizontalmente */
+    justify-content: space-between; /* Alinea los elementos con espacio entre ellos */
+}
+
+/* Estilo de cada elemento del contenedor personalizado */
+.custom-slide {
+    flex: 1; /* Distribuye el espacio disponible de manera equitativa entre los elementos */
+    margin-right: 10px; /* Margen derecho para separar las imágenes */
+}
+
+/* Estilo de las imágenes dentro del contenedor personalizado */
+.custom-slide img {
+    width: 600px; /* Establece el ancho deseado */
+    height: 400px; /* Establece la altura deseada */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+}
